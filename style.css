@@ -1,0 +1,48 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span.field {
+  display: block;
+  width: 130px;
+  overflow: auto;
+  height: 25px;
+  white-space: nowrap;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin-right: 15px;
+}
+span.field::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.category {
+  text-align: center;
+}
+
+.info {
+  background: rgb(228, 228, 228);
+  display: flex;
+  align-items: center;
+  padding: 0 72px;
+}
+.info__name {
+  width: 130px;
+  text-align: center;
+  margin-right: 15px;
+  font-weight: 700;
+  color: rgb(103, 103, 103);
+}
+
+.svg__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgb(23, 23, 23);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
